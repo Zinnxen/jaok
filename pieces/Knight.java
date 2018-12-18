@@ -68,7 +68,6 @@ public class Knight extends Piece {
 			}
 		}
 		if (col >= 2 && row != 7) {
-
 			if (ChessBoard.all_squares.get(row + 1).get(col - 2).hasPiece()) {
 				if (ChessBoard.all_squares.get(row + 1).get(col - 2).getPieceColor() != this.getColor()) {
 					ChessBoard.all_squares.get(row + 1).get(col - 2).moveMark();
@@ -87,7 +86,6 @@ public class Knight extends Piece {
 				ChessBoard.all_squares.get(row - 1).get(col - 2).moveMark();
 			}
 		}
-
 	}
 
 	@Override

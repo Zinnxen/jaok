@@ -7,7 +7,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.paint.Color;
 
-public abstract class Piece extends Group {
+public abstract class Piece extends Group implements Moveable{
 	
 	private Color color;
 	
